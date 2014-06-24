@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_cv46sPeyEeO8d7Sil47xGQ" elementId="org.eclipse.e4.ide.application" bindingContexts="_cv46ufeyEeO8d7Sil47xGQ">
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_cv46sfeyEeO8d7Sil47xGQ" label="com.example.e4.rcp.wizard" width="500" height="400">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_cv46sfeyEeO8d7Sil47xGQ" label="JCAT Interactive Mode" tooltip="" width="800" height="600">
     <children xsi:type="advanced:PerspectiveStack" xmi:id="_cv6I1PeyEeO8d7Sil47xGQ">
       <children xsi:type="advanced:Perspective" xmi:id="_cv6I1feyEeO8d7Sil47xGQ">
         <children xsi:type="basic:PartSashContainer" xmi:id="_cv6I1veyEeO8d7Sil47xGQ">
@@ -9,6 +9,7 @@
             <children xsi:type="basic:Part" xmi:id="__mb3QPe8EeO8d7Sil47xGQ" elementId="com.example.e4.rcp.wizard.part.0" contributionURI="bundleclass://com.example.e4.rcp.wizard/com.example.e4.rcp.wizard.parts.TestPart" label="Sample part 2" iconURI="platform:/plugin/com.example.e4.rcp.wizard/icons/sample.png"/>
           </children>
         </children>
+        <children xsi:type="basic:PartSashContainer" xmi:id="_ZyQ8cPqmEeOHhN-61yZTGQ" elementId="com.example.e4.rcp.wizard.mainpart"/>
       </children>
     </children>
     <mainMenu xmi:id="_cv5hzPeyEeO8d7Sil47xGQ" elementId="menu:org.eclipse.ui.main.menu">

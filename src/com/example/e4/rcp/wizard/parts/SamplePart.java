@@ -33,7 +33,7 @@ public class SamplePart {
 
 	@Inject
 	private MDirtyable dirty;
-
+	
 	@PostConstruct
 	public void createComposite(Composite parent) {
 		parent.setLayout(new GridLayout(1, false));
@@ -68,3 +68,4 @@ public class SamplePart {
 		dirty.setDirty(false);
 	}
 }
+
